@@ -1,0 +1,376 @@
+2021-05-23 11:45:25.961  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-S5VTUQS with PID 12672 (D:\project\blog-master\target\classes started by sampl in D:\project\blog-master)
+2021-05-23 11:45:25.973  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-23 11:45:26.039  INFO 12672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-23 11:45:26.039  INFO 12672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-23 11:45:28.810  INFO 12672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-23 11:45:28.834  INFO 12672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-23 11:45:28.835  INFO 12672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-23 11:45:29.158  INFO 12672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-23 11:45:29.159  INFO 12672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3120 ms
+2021-05-23 11:45:30.193  INFO 12672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 11:45:30.335  INFO 12672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-23 11:45:31.887  INFO 12672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-23 11:45:31.949  INFO 12672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-23 11:45:31.952  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 6.78 seconds (JVM running for 8.253)
+2021-05-23 11:46:28.053  INFO 12672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-23 11:46:28.054  INFO 12672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-23 11:46:28.072  INFO 12672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2021-05-23 11:46:28.125  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-23 11:46:28.142  INFO 12672 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-23 11:46:29.426  INFO 12672 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-23 11:46:30.680  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 11:46:32.631  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 11:46:32.756  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 11:46:46.595  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 11:46:46.683  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 11:47:01.762  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-23 11:47:02.927  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 11:47:03.538  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 11:47:03.661  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 11:47:46.555  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[1, 6, {}]}
+2021-05-23 11:47:47.095  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 11:47:47.631  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 11:47:47.757  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 11:48:13.384  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[2, 6, {}]}
+2021-05-23 11:48:13.932  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 11:48:14.367  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 11:48:14.452  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 11:50:22.670  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-23 11:50:23.787  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 11:50:24.250  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 11:50:24.334  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 11:57:58.712  WARN 12672 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f8694e6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 11:58:03.714  WARN 12672 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@600fcabe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 11:58:08.717  WARN 12672 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37438c70 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 11:58:13.720  WARN 12672 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2164ceb3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 11:58:18.723  WARN 12672 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b9431a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 11:58:23.725  WARN 12672 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2656aefb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 11:58:23.731 ERROR 12672 --- [http-nio-8080-exec-2] c.zc.handler.ControllerExceptionHandler  : Requst URL : http://localhost:8080/admin/blogs，Exception : {}
+
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30025ms.
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:308)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:572)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:360)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.zc.service.impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$bf7777da.getTypeById(<generated>)
+	at com.zc.controller.admin.BlogController.post(BlogController.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30025ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:689)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:196)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:161)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:264)
+	... 60 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2490)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:556)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:169)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:185)
+	... 63 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1171)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:576)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2486)
+	... 66 common frames omitted
+
+2021-05-23 11:58:23.733  WARN 12672 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30025ms.]
+2021-05-23 12:00:28.548  WARN 12672 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1374c95d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 12:00:33.552  WARN 12672 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@75190b22 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 12:00:38.560  WARN 12672 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@be63060 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 12:00:43.565  WARN 12672 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2735264e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 12:00:47.903  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[2, 6, {}]}
+2021-05-23 12:00:48.468  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:00:48.889  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:00:48.977  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:00:52.443  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[1, 6, {}]}
+2021-05-23 12:00:53.008  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:00:53.429  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:00:53.517  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:00:55.699  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[2, 6, {}]}
+2021-05-23 12:00:56.275  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:00:56.680  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:00:56.768  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:00:59.817  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[3, 6, {}]}
+2021-05-23 12:01:00.380  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:01:00.849  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:00.938  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:01:10.815  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.search', args=[1, git, {}]}
+2021-05-23 12:01:10.959  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Result : search
+2021-05-23 12:01:18.041  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.search', args=[1, Git, {}]}
+2021-05-23 12:01:18.179  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : search
+2021-05-23 12:01:27.068  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[2, {}]}
+2021-05-23 12:01:28.228  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:01:28.662  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:28.750  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:01:33.161  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[3, {}]}
+2021-05-23 12:01:34.176  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:01:34.691  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:34.821  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:01:38.215  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[4, {}]}
+2021-05-23 12:01:39.162  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:01:39.558  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:39.645  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:01:41.948  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[5, {}]}
+2021-05-23 12:01:42.902  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:01:43.354  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:43.441  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:01:46.368  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[6, {}]}
+2021-05-23 12:01:47.312  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:01:47.691  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:47.778  INFO 12672 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:01:58.785  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[1, 2, {}]}
+2021-05-23 12:01:59.346  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:01:59.793  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:01:59.889  INFO 12672 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:02:00.987  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[1, 6, {}]}
+2021-05-23 12:02:01.556  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:02:02.024  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:02:02.110  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:04:40.407  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[2, 6, {}]}
+2021-05-23 12:04:40.984  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:04:41.501  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:04:41.632  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:04:46.991  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/43', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[43, {}]}
+2021-05-23 12:04:47.640  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-23 12:04:48.361  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:04:48.485  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/comments/43', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.CommentController.comments', args=[43, {}]}
+2021-05-23 12:04:48.492  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:04:48.538  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : blog :: commentList
+2021-05-23 12:04:56.307  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/45', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[45, {}]}
+2021-05-23 12:04:57.149  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-23 12:04:58.052  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:04:58.183  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:04:58.503  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/comments/45', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.CommentController.comments', args=[45, {}]}
+2021-05-23 12:04:58.546  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : blog :: commentList
+2021-05-23 12:05:02.368  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/43', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[43, {}]}
+2021-05-23 12:05:02.901  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-23 12:05:03.540  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:05:03.668  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/comments/43', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.CommentController.comments', args=[43, {}]}
+2021-05-23 12:05:03.672  INFO 12672 --- [http-nio-8080-exec-2] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:05:08.669  WARN 12672 --- [http-nio-8080-exec-10] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15ba9c89 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-05-23 12:05:08.755  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : blog :: commentList
+2021-05-23 12:05:19.827  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[3, 6, {}]}
+2021-05-23 12:05:20.391  INFO 12672 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:05:20.838  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:05:20.934  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:05:23.751  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[2, 6, {}]}
+2021-05-23 12:05:24.325  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:05:24.692  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:05:24.782  INFO 12672 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:05:33.877  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.TypeShowController.types', args=[2, 6, {}]}
+2021-05-23 12:05:34.433  INFO 12672 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : types
+2021-05-23 12:05:34.878  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:05:34.967  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:06:49.236  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[6, {}]}
+2021-05-23 12:06:50.185  INFO 12672 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:06:50.686  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:06:50.816  INFO 12672 --- [http-nio-8080-exec-7] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:06:55.717  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-23 12:06:56.891  INFO 12672 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : index
+2021-05-23 12:06:57.340  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:06:57.440  INFO 12672 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 12:07:33.042  INFO 12672 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:07:33.043  INFO 12672 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-23 12:07:33.050  INFO 12672 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-23 12:07:51.166  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-S5VTUQS with PID 12672 (D:\project\blog-master\target\classes started by sampl in D:\project\blog-master)
+2021-05-23 12:07:51.167  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-23 12:07:51.482  WARN 12672 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zc.mapper]' package. Please check your configuration.
+2021-05-23 12:07:51.676  INFO 12672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-23 12:07:51.676  INFO 12672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-23 12:07:51.677  INFO 12672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-23 12:07:51.776  INFO 12672 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-05-23 12:07:51.776  INFO 12672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 605 ms
+2021-05-23 12:07:51.862  INFO 12672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:07:51.881  INFO 12672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-23 12:07:52.010  WARN 12672 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+2021-05-23 12:07:52.011  INFO 12672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:07:52.012  INFO 12672 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-23 12:07:52.043  INFO 12672 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-23 12:07:52.046 ERROR 12672 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zc.BlogApplication.main(BlogApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:596)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:616)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$978506e7.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$978506e7$$FastClassBySpringCGLIB$$b015d841.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$978506e7.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\project\blog-master\target\classes\mapping\BolgMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:594)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:262)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:253)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:245)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.entity.Blog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.zc.entity.Blog
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+
+2021-05-23 12:08:03.750  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-S5VTUQS with PID 12672 (D:\project\blog-master\target\classes started by sampl in D:\project\blog-master)
+2021-05-23 12:08:03.750  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-23 12:08:04.864  INFO 12672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-23 12:08:04.865  INFO 12672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-23 12:08:04.867  INFO 12672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-23 12:08:04.987  INFO 12672 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-05-23 12:08:04.988  INFO 12672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1234 ms
+2021-05-23 12:08:05.686  INFO 12672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:08:05.738  INFO 12672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-23 12:08:07.293  INFO 12672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-23 12:08:07.321  INFO 12672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-23 12:08:07.322  INFO 12672 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 3.645 seconds (JVM running for 1363.623)
+2021-05-23 12:08:07.325  INFO 12672 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-05-23 12:08:08.346  INFO 9140 --- [main] com.zc.BlogApplicationTests              : Starting BlogApplicationTests on DESKTOP-S5VTUQS with PID 9140 (started by sampl in D:\project\blog-master)
+2021-05-23 12:08:08.347  INFO 9140 --- [main] com.zc.BlogApplicationTests              : The following profiles are active: dev
+2021-05-23 12:08:11.931  INFO 9140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:08:12.246  INFO 9140 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-23 12:08:13.127  INFO 9140 --- [main] com.zc.BlogApplicationTests              : Started BlogApplicationTests in 5.428 seconds (JVM running for 7.297)
+2021-05-23 12:08:13.607  INFO 9140 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:15:38.352  INFO 6960 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-S5VTUQS with PID 6960 (D:\project\blog-master\target\classes started by sampl in D:\project\blog-master)
+2021-05-23 12:15:38.358  INFO 6960 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-23 12:15:38.445  INFO 6960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-23 12:15:38.446  INFO 6960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-23 12:15:41.135  INFO 6960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-23 12:15:41.165  INFO 6960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-23 12:15:41.166  INFO 6960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-23 12:15:41.614  INFO 6960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-23 12:15:41.615  INFO 6960 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3169 ms
+2021-05-23 12:15:43.124  INFO 6960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 12:15:43.278  INFO 6960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-23 12:15:44.978  INFO 6960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-23 12:15:45.032  INFO 6960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-23 12:15:45.036  INFO 6960 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 7.508 seconds (JVM running for 8.661)
+2021-05-23 12:15:52.327  INFO 6960 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-23 12:15:52.328  INFO 6960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-23 12:15:52.347  INFO 6960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2021-05-23 12:15:56.996  INFO 6960 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-23 12:15:59.054  INFO 6960 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-23 12:15:59.914  INFO 6960 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-23 12:16:00.139  INFO 6960 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-23 16:58:31.893  INFO 16368 --- [main] com.zc.BlogApplicationTests              : Starting BlogApplicationTests on DESKTOP-S5VTUQS with PID 16368 (started by sampl in D:\project\blog-master)
+2021-05-23 16:58:31.896  INFO 16368 --- [main] com.zc.BlogApplicationTests              : The following profiles are active: dev
+2021-05-23 16:58:35.360  INFO 16368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 16:58:35.589  INFO 16368 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-23 16:58:36.281  INFO 16368 --- [main] com.zc.BlogApplicationTests              : Started BlogApplicationTests in 5.035 seconds (JVM running for 6.477)
+2021-05-23 16:58:36.774  INFO 16368 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

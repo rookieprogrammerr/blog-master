@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var myObject = function() {
+            var value = 0;
+            return {
+                increment: function (inc) {
+                    value += typeof inc === 'number' ?inc :1;
+                },
+                getValue : function() {
+                    return value;
+                }
+            }
+        }();
+        myObject.increment(2);
+        myObject.increment(true);
+        myObject.increment('a');
+        myObject.increment(5);
+        alert(myObject.getValue()); //alert结果
+    </script>
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+2021-05-05 20:14:03.527  INFO 2788 --- [main] com.zc.BlogApplicationTests              : Starting BlogApplicationTests on DESKTOP-S5VTUQS with PID 2788 (started by sampl in D:\project\blog-master)
+2021-05-05 20:14:03.535  INFO 2788 --- [main] com.zc.BlogApplicationTests              : The following profiles are active: dev
+2021-05-05 20:14:06.803  INFO 2788 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:14:06.989  INFO 2788 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-05 20:14:07.611  INFO 2788 --- [main] com.zc.BlogApplicationTests              : Started BlogApplicationTests in 4.724 seconds (JVM running for 6.09)
+2021-05-05 20:14:08.004  INFO 2788 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:31:25.972  INFO 14752 --- [main] com.zc.BlogApplicationTests              : Starting BlogApplicationTests on DESKTOP-S5VTUQS with PID 14752 (started by sampl in D:\project\blog-master)
+2021-05-05 20:31:25.975  INFO 14752 --- [main] com.zc.BlogApplicationTests              : The following profiles are active: dev
+2021-05-05 20:31:29.268  INFO 14752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:31:29.468  INFO 14752 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-05 20:31:30.361  INFO 14752 --- [main] com.zc.BlogApplicationTests              : Started BlogApplicationTests in 4.931 seconds (JVM running for 6.536)
+2021-05-05 20:31:30.778  INFO 14752 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:34:50.996  INFO 10260 --- [main] com.zc.BlogApplicationTests              : Starting BlogApplicationTests on DESKTOP-S5VTUQS with PID 10260 (started by sampl in D:\project\blog-master)
+2021-05-05 20:34:50.999  INFO 10260 --- [main] com.zc.BlogApplicationTests              : The following profiles are active: dev
+2021-05-05 20:34:54.113  INFO 10260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:34:54.318  INFO 10260 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-05 20:34:54.898  INFO 10260 --- [main] com.zc.BlogApplicationTests              : Started BlogApplicationTests in 4.502 seconds (JVM running for 5.743)
+2021-05-05 20:34:55.231  INFO 10260 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:57:57.668  INFO 12552 --- [main] com.zc.BlogApplicationTests              : Starting BlogApplicationTests on DESKTOP-S5VTUQS with PID 12552 (started by sampl in D:\project\blog-master)
+2021-05-05 20:57:57.671  INFO 12552 --- [main] com.zc.BlogApplicationTests              : The following profiles are active: dev
+2021-05-05 20:58:00.925  INFO 12552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 20:58:01.114  INFO 12552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-05 20:58:01.732  INFO 12552 --- [main] com.zc.BlogApplicationTests              : Started BlogApplicationTests in 4.608 seconds (JVM running for 5.939)
+2021-05-05 20:58:02.116  INFO 12552 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05 21:20:33.033  INFO 9976 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-S5VTUQS with PID 9976 (D:\project\blog-master\target\classes started by sampl in D:\project\blog-master)
+2021-05-05 21:20:33.038  INFO 9976 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-05 21:20:33.123  INFO 9976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-05 21:20:33.123  INFO 9976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-05 21:20:35.883  INFO 9976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-05 21:20:35.900  INFO 9976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-05 21:20:35.901  INFO 9976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-05 21:20:36.178  INFO 9976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-05 21:20:36.178  INFO 9976 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3054 ms
+2021-05-05 21:20:37.323  INFO 9976 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05 21:20:37.493  INFO 9976 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-05 21:20:39.249  INFO 9976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-05 21:20:39.311  INFO 9976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05 21:20:39.315  INFO 9976 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 7.167 seconds (JVM running for 8.308)
+2021-05-05 21:20:50.088  INFO 9976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05 21:20:50.088  INFO 9976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-05 21:20:50.109  INFO 9976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2021-05-05 21:20:50.168  INFO 9976 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-05 21:20:50.188  INFO 9976 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-05 21:20:51.326  INFO 9976 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-05 21:20:53.027  INFO 9976 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : index
+2021-05-05 21:20:54.821  INFO 9976 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-05 21:20:54.998  INFO 9976 --- [http-nio-8080-exec-4] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-05 21:21:20.617  INFO 9976 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-05 21:21:20.794  INFO 9976 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-05 21:21:42.520  INFO 9976 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-05 21:21:42.694  INFO 9976 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList

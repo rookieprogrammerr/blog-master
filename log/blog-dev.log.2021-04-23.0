@@ -1,0 +1,21 @@
+2021-04-23 17:26:08.730  INFO 5604 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-4T3148G with PID 5604 (G:\project\blog-master\target\classes started by fzkj in G:\project\blog-master)
+2021-04-23 17:26:08.765  INFO 5604 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-04-23 17:26:08.839  INFO 5604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-23 17:26:08.839  INFO 5604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-23 17:26:13.182  INFO 5604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-23 17:26:13.193  INFO 5604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-23 17:26:13.194  INFO 5604 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-04-23 17:26:13.303  INFO 5604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-23 17:26:13.304  INFO 5604 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4465 ms
+2021-04-23 17:26:14.298  INFO 5604 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 17:26:14.548  INFO 5604 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-23 17:26:15.046  INFO 5604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-23 17:26:15.087  INFO 5604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-23 17:26:15.090  INFO 5604 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 7.6 seconds (JVM running for 8.863)
+2021-04-23 17:26:28.109  INFO 5604 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 17:26:28.110  INFO 5604 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-23 17:26:28.127  INFO 5604 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2021-04-23 17:26:33.317  INFO 5604 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-23 17:26:34.441  INFO 5604 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-23 17:26:35.303  INFO 5604 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-04-23 17:26:35.548  INFO 5604 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList

@@ -1,0 +1,107 @@
+2021-05-06 12:29:59.963  INFO 10876 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-NRF6B8K with PID 10876 (F:\project\blog-master\target\classes started by lenovo in F:\project\blog-master)
+2021-05-06 12:30:00.064  INFO 10876 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-06 12:30:00.431  INFO 10876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-06 12:30:00.432  INFO 10876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-06 12:30:11.463  INFO 10876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-06 12:30:11.482  INFO 10876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-06 12:30:11.482  INFO 10876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-06 12:30:11.642  INFO 10876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-06 12:30:11.658  INFO 10876 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11225 ms
+2021-05-06 12:30:13.193  INFO 10876 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 12:30:13.402  INFO 10876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-06 12:30:13.877  INFO 10876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-06 12:30:13.916  INFO 10876 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-06 12:30:13.925  INFO 10876 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-06 12:30:13.927 ERROR 10876 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-05-06 12:30:13.936  INFO 10876 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 12:30:42.096  INFO 11548 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-NRF6B8K with PID 11548 (F:\project\blog-master\target\classes started by lenovo in F:\project\blog-master)
+2021-05-06 12:30:42.102  INFO 11548 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-06 12:30:42.197  INFO 11548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-06 12:30:42.198  INFO 11548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-06 12:30:45.840  INFO 11548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-06 12:30:45.866  INFO 11548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-06 12:30:45.867  INFO 11548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-06 12:30:46.152  INFO 11548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-06 12:30:46.152  INFO 11548 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3954 ms
+2021-05-06 12:30:47.245  INFO 11548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 12:30:47.445  INFO 11548 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-06 12:30:47.994  INFO 11548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-06 12:30:48.034  INFO 11548 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-06 12:30:48.043  INFO 11548 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-06 12:30:48.045 ERROR 11548 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-05-06 12:30:48.052  INFO 11548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 12:31:51.021  INFO 4588 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on DESKTOP-NRF6B8K with PID 4588 (F:\project\blog-master\target\classes started by lenovo in F:\project\blog-master)
+2021-05-06 12:31:51.030  INFO 4588 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2021-05-06 12:31:51.156  INFO 4588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-06 12:31:51.157  INFO 4588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-06 12:31:54.061  INFO 4588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-06 12:31:54.076  INFO 4588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-06 12:31:54.076  INFO 4588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-06 12:31:54.181  INFO 4588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-06 12:31:54.182  INFO 4588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3025 ms
+2021-05-06 12:31:55.286  INFO 4588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 12:31:55.472  INFO 4588 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-06 12:31:56.076  INFO 4588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-06 12:31:56.296  INFO 4588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-06 12:31:56.304  INFO 4588 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 6.391 seconds (JVM running for 7.656)
+2021-05-06 12:33:04.178  INFO 4588 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-06 12:33:04.179  INFO 4588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-06 12:33:04.205  INFO 4588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2021-05-06 12:33:04.278  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-06 12:33:04.302  INFO 4588 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-06 12:33:05.954  INFO 4588 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-06 12:33:07.624  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : index
+2021-05-06 12:33:09.844  INFO 4588 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-06 12:33:09.985  INFO 4588 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-06 12:33:20.848  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-06 12:33:20.995  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-06 12:33:56.208  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.index', args=[1, {}]}
+2021-05-06 12:33:57.509  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : index
+2021-05-06 12:33:58.283  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-06 12:33:58.419  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-06 12:33:59.508  INFO 4588 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/24', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[24, {}]}
+2021-05-06 12:34:00.583  INFO 4588 --- [http-nio-8080-exec-10] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-06 12:34:02.058  INFO 4588 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-06 12:34:02.193  INFO 4588 --- [http-nio-8080-exec-6] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-06 12:36:14.286  INFO 4588 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-06 12:36:14.422  INFO 4588 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-06 12:36:58.173  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/24', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[24, {}]}
+2021-05-06 12:36:59.134  INFO 4588 --- [http-nio-8080-exec-1] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-06 12:37:36.042  INFO 4588 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/24', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[24, {}]}
+2021-05-06 12:37:36.885  INFO 4588 --- [http-nio-8080-exec-8] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-06 12:38:40.802  INFO 4588 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/blog/24', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.blog', args=[24, {}]}
+2021-05-06 12:38:41.657  INFO 4588 --- [http-nio-8080-exec-3] com.zc.aspect.LogAspect                  : Result : blog
+2021-05-06 12:38:42.645  INFO 4588 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.IndexController.newblogs', args=[{}]}
+2021-05-06 12:38:42.781  INFO 4588 --- [http-nio-8080-exec-9] com.zc.aspect.LogAspect                  : Result : _fragments :: newblogList
+2021-05-06 12:38:42.846  INFO 4588 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Request : {url='http://localhost:8080/comments/24', ip='0:0:0:0:0:0:0:1', classMethod='com.zc.controller.CommentController.comments', args=[24, {}]}
+2021-05-06 12:38:42.919  INFO 4588 --- [http-nio-8080-exec-5] com.zc.aspect.LogAspect                  : Result : blog :: commentList
